@@ -1,11 +1,14 @@
 {
   "name": "code-accelerator",
   "displayName": "Code accelerator",
-  "description": "",
+  "description": "進捗がダメそうなときにアラートしてくれる拡張",
   "version": "0.0.1",
+  "publisher": "anoriqq",
+  "qna": false,
   "engines": {
     "vscode": "^1.38.0"
   },
+  "license": "SEE LICENSE IN LICENSE.🍣.md",
   "categories": [
     "Other"
   ],
