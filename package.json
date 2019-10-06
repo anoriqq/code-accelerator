@@ -2,7 +2,7 @@
   "name": "code-accelerator",
   "displayName": "Code accelerator",
   "description": "進捗がダメそうなときにアラートしてくれる拡張",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "anoriqq",
   "qna": false,
   "engines": {
@@ -21,7 +21,7 @@
       "title": "Code Accelerator",
       "properties": {
         "code-accelerator.waitTimeRangeSec": {
-          "type":"integer",
+          "type": "integer",
           "default": 60,
           "description": "アクティブかどうかを判定する最小のセクションの範囲(秒)"
         },
