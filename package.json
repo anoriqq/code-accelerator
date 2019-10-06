@@ -64,5 +64,14 @@
   },
   "dependencies": {
     "lodash": "^4.17.15"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/anoriqq/code-accelerator/issues",
+    "email": "shota.yoshikawa@anoriqq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anoriqq/code-accelerator.git"
+  },
+  "homepage": "https://github.com/anoriqq/code-accelerator/blob/master/README.md"
 }
