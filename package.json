@@ -2,7 +2,7 @@
   "name": "code-accelerator",
   "displayName": "Code accelerator",
   "description": "進捗がダメそうなときにアラートしてくれる拡張",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "anoriqq",
   "qna": false,
   "engines": {
@@ -15,7 +15,7 @@
   "activationEvents": [
     "*"
   ],
-  "main": "./extension.js",
+  "main": "./dist/extension.js",
   "contributes": {
     "configuration": {
       "title": "Code Accelerator",
