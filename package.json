@@ -1,6 +1,6 @@
 {
-  "name": "js-acceleration",
-  "displayName": "JS Acceleration",
+  "name": "code-accelerator",
+  "displayName": "Code accelerator",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -14,14 +14,34 @@
   ],
   "main": "./extension.js",
   "contributes": {
+    "configuration": {
+      "title": "Code Accelerator",
+      "properties": {
+        "code-accelerator.waitTimeRangeSec": {
+          "type":"integer",
+          "default": 60,
+          "description": "アクティブかどうかを判定する最小のセクションの範囲(秒)"
+        },
+        "code-accelerator.numberOfSections": {
+          "type": "integer",
+          "default": 30,
+          "description": "記録するセクションの数"
+        },
+        "code-accelerator.alertThreshold": {
+          "type": "integer",
+          "default": 15,
+          "description": "stack pointsがこの値以上になったときにアラートが表示される"
+        }
+      }
+    },
     "commands": [
       {
-        "command": "extension.jsa.on",
-        "title": "Activate JS Acceleration"
+        "command": "code-accelerator.info",
+        "title": "Show code accelerator stack points"
       },
       {
-        "command": "extension.jsa.off",
-        "title": "Deactivate JS Acceleration"
+        "command": "code-accelerator.reset",
+        "title": "Reset code accelerator stack points"
       }
     ]
   },
@@ -38,5 +58,8 @@
     "mocha": "^6.1.4",
     "typescript": "^3.3.1",
     "vscode-test": "^1.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
   }
 }
