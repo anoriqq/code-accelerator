@@ -52,15 +52,15 @@
     "test": "node ./test/runTest.js"
   },
   "devDependencies": {
-    "@types/glob": "^7.1.1",
-    "@types/mocha": "^5.2.6",
-    "@types/node": "^10.12.21",
-    "@types/vscode": "^1.38.0",
-    "eslint": "^5.13.0",
-    "glob": "^7.1.4",
-    "mocha": "^6.1.4",
-    "typescript": "^3.3.1",
-    "vscode-test": "^1.2.0"
+    "@types/glob": "7.1.1",
+    "@types/mocha": "5.2.7",
+    "@types/node": "10.14.19",
+    "@types/vscode": "1.38.0",
+    "eslint": "5.16.0",
+    "glob": "7.1.4",
+    "mocha": "6.2.1",
+    "typescript": "3.6.3",
+    "vscode-test": "1.2.0"
   },
   "dependencies": {
     "lodash": "^4.17.15"
