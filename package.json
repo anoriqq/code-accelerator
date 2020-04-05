@@ -55,7 +55,7 @@
     "@types/glob": "7.1.1",
     "@types/mocha": "5.2.7",
     "@types/node": "10.17.18",
-    "@types/vscode": "1.38.0",
+    "@types/vscode": "1.43.0",
     "eslint": "5.16.0",
     "glob": "7.1.4",
     "mocha": "6.2.1",
